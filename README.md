@@ -62,10 +62,10 @@ kubectl port-forward service/ghcr-push-with-actions 3000:3000 --context minikube
 
 ### 테스트
 
-```
+```bash
 curl localhost:3000
 
-> Hello World! [v.1.0.0]
+> Hello World! v.1.0.0
 ```
 
 ## 참고
