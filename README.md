@@ -28,10 +28,8 @@ docker run -d -p 3000:3000 ghcr.io/ber01/ghcr-push-with-actions
 
 ```bash
 curl localhost:3000
-```
 
-```bash
-Hello World! [VERSION]
+> Hello World! [v.1.0.x]
 ```
 
 ## 참고
