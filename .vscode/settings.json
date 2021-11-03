@@ -1,0 +1,12 @@
+{
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "protoc": {
+    "path": "/usr/local/bin/protoc",
+    "options": ["--proto_path=packages/api/lib/user"]
+  }
+}
