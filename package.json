@@ -5,6 +5,7 @@
   "author": "ber01",
   "private": true,
   "license": "MIT",
+  "bin": "dist/main.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
@@ -42,6 +43,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "jest": "27.3.1",
     "prettier": "^2.4.1",
+    "pkg": "5.4.1",
     "rimraf": "^3.0.2",
     "supertest": "^6.1.6",
     "ts-jest": "^27.0.7",
