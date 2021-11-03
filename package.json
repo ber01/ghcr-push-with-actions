@@ -9,6 +9,7 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
+    "build:pkg": "pkg . --target node16-linux-x64 --output dist/server",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
@@ -42,8 +43,8 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "jest": "27.3.1",
-    "prettier": "^2.4.1",
     "pkg": "5.4.1",
+    "prettier": "^2.4.1",
     "rimraf": "^3.0.2",
     "supertest": "^6.1.6",
     "ts-jest": "^27.0.7",
